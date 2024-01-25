@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+body {
+    background-color: rgb(255, 202, 172);
+}
+
+
+a {
+  color: rgb(242, 170, 173);
+  text-decoration: none; 
+  font-family: 'chalkboard SE';
+}
+
+footer {
+  text-align: center;
+  border: solid;
+  border-color: rgb(242, 170, 173);
+  border-width: 0.2em;
+  background-color: rgb(255, 244, 223);
+  padding: 1em;
+  position: fixed;
+  bottom: 0; 
+  width: 100vw;
+}
+
+li {
+    display: inline; 
+    padding: 1em;
+    text-align: center;
+}
+
+h1,h2 {
+  color: rgb(242, 170, 173);
+  font-family: 'pulang';
+}
+
+p {
+  color: rgb(242, 170, 173);
+  font-family: 'chalkboard SE';
+}
+
+nav li a {
+  transition: color  200ms   ease;
+}
+
+nav li a:hover {
+  color: rgb(255, 100, 100);
+}
+
+/*------------------home--------------------*/
+
+.home section {
+  text-align: center;
+  margin: 1em;
+  border: solid;
+  border-color:rgb(255, 244, 223);
+  background-color: rgb(255, 244, 223);
+  border-radius: 1.5em;
+  padding: 1em;
+}
+
+.home h2 {
+  margin-bottom: 0.5em;
+}
+
+.home header {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+.home header img {
+  max-width: 65%;
+  margin-top: 1em;
+}
+
+.home main {
+  margin-bottom: 5em;
+}
+
+.home section img {
+  max-width: 60%;
+  margin: 1em;
+}
+
+/*------------------over--------------------*/
+
+.over header img {
+  max-width: 90%;
+  padding-left: 1em;
+}
+
+.over header h1 {
+  font-size: 30px;
+  padding-right: 1em;
+  padding-top: 1em;
+}
+
+.over header {
+  display: flex;
+  padding-top: 1em;
+
+}
+
+.over main {
+  margin-top: 1em;
+  margin-bottom: 5em;
+}
+
+.over section img {
+  float: right;
+}
+
+.kattenpootjes img {
+  max-width: 80%;
+  margin-left: 2em;
+  margin-top: 2em;
+}
+
+.poezenboot img {
+  max-width: 20.5em;
+  border: solid;
+  margin: 1.3em;
+  border-color: rgb(255, 244, 223);
+  border-width: 0.5em;
+}
+
+.over section {
+  padding: 2em;
+  background-color: rgb(255, 244, 223) ;
+}
+
+.dierenvriend img {
+  max-width: 6em;
+}
+
+.herengracht img {
+  max-width: 4em;
+}
+
+.over section h2 {
+  margin-bottom: 0.5em;
+}
+
+/*------------------bewoners--------------------*/
+
+.adoptie header {
+  display: flex;
+}
+
+.adoptie header img {
+  max-width: 80%;
+  padding-left: 1em;
+  padding-top: 1em;
+}
+
+.adoptie header h1 {
+  font-size: 35px;
+  padding-right: 1em;
+  padding-top: 2em;
+}
+
+.adoptie main section {
+  text-align: center;
+  margin: 2em;
+  margin-bottom: 5em;
+  border: solid;
+  border-color: rgb(255, 244, 223);
+  border-radius: 2em;
+  background-color: rgb(255, 244, 223);
+  padding: 1em;
+  border-width: 0.3em;
+  transition: transform 0.4s ease;
+}
+
+.adoptie main section:hover {
+  transform: scale(1.050);
+}
+
+.adoptie section div a {
+  border: solid;
+  border-width: 0.2em;
+  background-color: rgb(255, 231, 187);
+  border-color: rgb(242, 170, 173);
+  border-radius: 0.5em;
+  margin: 2em;
+  padding: 0.5em;
+  text-align: center;
+}
+
+.adoptie section div a {
+  transition: color  200ms   ease;
+}
+
+.adoptie section div a:hover {
+  color: rgb(255, 113, 113);
+}
+
+.adoptie section h2 {
+margin: 1em;
+}
+
+.adoptie p {
+  margin-bottom: 1em;
+}
+
+.adoptie section p {
+  padding-bottom: 1em;
+}
+
+.locatie img {
+  max-width: 20%;
+}
+
+.katten img {
+  max-width: 55%;
+}
+
+.hond img {
+  max-width: 50%;
+}
+
+.voerbak img {
+  max-width: 50%;
+}
+
+.adoptie a {
+  font-family: 'pulang';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
